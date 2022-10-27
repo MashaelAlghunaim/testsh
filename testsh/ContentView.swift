@@ -15,14 +15,10 @@ struct ContentView: View {
                 .scaledToFit()
                 .clipShape(Circle())
                 .overlay(Circle().stroke(Color("color")))
-            
-          
-            
-        
-            HStack{
-                Text("\"I am a set of letters, a combination of words, and the content of a story.\"").font(.system(size: 24, design: .rounded)).foregroundColor(.black)
+
+                    Text("\"I am a set of letters, a combination of words, and the content of a story.").font(.system(size: 24, design: .rounded)).foregroundColor(.black)
+                    
                 
-            }
             Spacer() }
         
             .padding()
