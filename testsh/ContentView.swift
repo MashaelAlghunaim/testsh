@@ -16,7 +16,7 @@ struct ContentView: View {
                 .clipShape(Circle())
                 .overlay(Circle().stroke(Color("color")))
 
-                    Text("\"I am a set of letters, a combination of words, and the content of a story.").font(.system(size: 24, design: .rounded)).foregroundColor(.black)
+                    Text("\"I am a set of letters, a combination of words, and the content of a story.\"").font(.system(size: 24, design: .rounded)).foregroundColor(.black)
                     
                 
             Spacer() }
